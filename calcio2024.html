@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcio Fan Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1e90ff;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #1e90ff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact, .news, .teams, .gallery {
+            background-color: #e0f7fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 200px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Benvenuto nella Fan Page di Calcio</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#news">Notizie</a>
+        <a href="#teams">Squadre</a>
+        <a href="#gallery">Galleria</a>
+        <a href="#contatti">Contatti</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Passione per il Calcio</h2>
+    <p>Scopri le ultime notizie e aggiornamenti sul mondo del calcio. Che tu sia un tifoso sfegatato o un semplice appassionato, questa pagina è dedicata a te!</p>
+</section>
+
+<section id="news" class="news">
+    <h2>Notizie Recenti</h2>
+    <ul>
+        <li>La squadra A vince il campionato!</li>
+        <li>Il giocatore X trasferito nella squadra B.</li>
+        <li>Il nuovo allenatore della squadra C è stato presentato.</li>
+    </ul>
+</section>
+
+<section id="teams" class="teams">
+    <h2>Squadre di Calcio</h2>
+    <p>Le seguenti squadre sono tra le più seguite e amate:</p>
+    <ul>
+        <li>Squadra A</li>
+        <li>Squadra B</li>
+        <li>Squadra C</li>
+        <li>Squadra D</li>
+    </ul>
+</section>
+
+<section id="gallery" class="gallery">
+    <h2>Galleria di Immagini</h2>
+    <img src="https://via.placeholder.com/200" alt="Immagine 1">
+    <img src="https://via.placeholder.com/200" alt="Immagine 2">
+    <img src="https://via.placeholder.com/200" alt="Immagine 3">
+    <img src="https://via.placeholder.com/200" alt="Immagine 4">
+</section>
+
+<section id="contatti" class="contact">
+    <h2>Contattaci</h2>
+    <p>Hai domande o vuoi condividere la tua passione per il calcio? Compila il modulo qui sotto!</p>
+    <form>
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Messaggio:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        
+        <input type="submit" value="Invia">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Fan Page di Calcio</p>
+</footer>
+
+</body>
+</html>
